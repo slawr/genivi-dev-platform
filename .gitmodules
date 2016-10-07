@@ -38,3 +38,9 @@
 [submodule "meta-qcom"]
     path = meta-qcom
     url = git://git.yoctoproject.org/meta-qcom
+[submodule "renesas-rcar-gen3"]
+	path = renesas-rcar-gen3
+	url = https://github.com/slawr/renesas-rcar-gen3.git
+[submodule "meta-linaro"]
+	path = meta-linaro
+	url = https://git.linaro.org/openembedded/meta-linaro.git
