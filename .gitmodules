@@ -44,3 +44,7 @@
 [submodule "meta-linaro"]
 	path = meta-linaro
 	url = https://github.com/slawr/meta-linaro.git
+[submodule "meta-rcar"]
+	path = meta-rcar
+	url = git://github.com/CogentEmbedded/meta-rcar.git
+	branch = v2.12.0
