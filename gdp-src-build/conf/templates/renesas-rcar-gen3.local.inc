@@ -3,6 +3,21 @@ include local.inc
 #INHERIT += "rm_work"
 #RM_WORK_EXCLUDE += "navit audiomanager"
 
+# Add the R-Car packages to the image
+IMAGE_INSTALL_append_rcar-gen3 = "libdrm-kms \
+    libdrm-tests \
+    kernel-module-gles \
+    gles-user-module \
+    libgbm-dev \
+    weston-bin \
+    kernel-module-pvrsrvkm \
+    weston-init \
+    v4l-utils \
+    optee-linuxdriver \
+    optee-linuxdriver-armtz \
+    optee-client \
+"
+
 MACHINE ??= "salvator-x"
 
 # This sets the SoC
