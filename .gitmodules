@@ -43,4 +43,4 @@
 	url = https://github.com/slawr/renesas-rcar-gen3.git
 [submodule "meta-linaro"]
 	path = meta-linaro
-	url = https://git.linaro.org/openembedded/meta-linaro.git
+	url = https://github.com/slawr/meta-linaro.git
