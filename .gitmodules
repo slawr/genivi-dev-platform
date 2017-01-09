@@ -1,6 +1,6 @@
 [submodule "meta-genivi-dev"]
 	path = meta-genivi-dev
-	url = http://github.com/genivi/meta-genivi-dev.git
+	url = https://github.com/slawr/meta-genivi-dev.git
 [submodule "meta-ivi"]
 	path = meta-ivi
 	url = http://github.com/genivi/meta-ivi.git
